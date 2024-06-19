@@ -163,6 +163,17 @@ span {
 .btn:hover {
   transform: scale(1.1);
 }
+
+.btn-2 {
+  background-color:orangered;
+  border-radius: 30px;
+   font-size: var(--p-font);
+  padding: 10px 20px;
+}
+.btn-2:hover {
+  transform: scale(1.1);
+}
+
 .home-img img {
   max-width: 100%;
   width: 540px;
@@ -318,6 +329,26 @@ header.sticky {
   opacity: 0;
   transition: all .40s;
 }
+
+.layer .btn-2 {
+  position: absolute;
+  width: 32%;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--bg-color);
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: all .40s;
+}
+
+
+.layer:hover .btn-2 {
+  bottom: 37%;
+  opacity: 1;
+}
+
 .layer:hover h3 {
   bottom: 52%;
   opacity: 1;
