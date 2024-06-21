@@ -97,7 +97,7 @@ section {
 .home {
   min-height: 100vh;
   height: 100vh; 
-  /* Ensure it covers full viewport height */
+margin-bottom: -30px;
   width: 100%;
   background: url(../img/background.jpg) no-repeat center center/cover;
   position: relative;
@@ -187,7 +187,6 @@ header.sticky {
 }
 .sub-service
 {
-  padding-top: 100px;
   align-items: center;
   align-items: center;
   text-align: center;
