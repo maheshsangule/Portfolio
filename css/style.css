@@ -98,7 +98,7 @@ section {
   min-height: 100vh;
   height: 100vh; /* Ensure it covers full viewport height */
   width: 100%;
-  margin-bottom: -195px;
+  margin-bottom: -250px;
   background: url(../img/background.jpg) no-repeat center center/cover;
   position: relative;
   display: grid;
