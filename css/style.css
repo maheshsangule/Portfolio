@@ -583,7 +583,7 @@ header.sticky {
 }
 @media (max-width: 800px) {
   .home {
-    margin-bottom: 270px;
+    margin-bottom: 250px;
     grid-template-columns: 1fr;
     min-height: 100vh; /* Ensure it covers full height */
     grid-gap: 1rem;
