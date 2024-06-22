@@ -176,6 +176,7 @@ span {
 }
 
 .home-img img {
+    position:static;
   max-width: 100%;
   width: 540px;
   height: auto;
@@ -187,7 +188,7 @@ header.sticky {
 }
 .sub-service
 {
- 
+  position:sticky;
   align-items: center;
   align-items: center;
   text-align: center;
