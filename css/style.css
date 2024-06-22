@@ -7,6 +7,13 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
+
+* {
+  user-select: none; /* Standard syntax */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+}
 :root {
   --bg-color: #ffffff;
   --text-color: #000;
@@ -576,7 +583,7 @@ header.sticky {
 }
 @media (max-width: 800px) {
   .home {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     grid-template-columns: 1fr;
     min-height: 100vh; /* Ensure it covers full height */
     grid-gap: 1rem;
