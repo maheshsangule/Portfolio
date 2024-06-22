@@ -187,7 +187,7 @@ header.sticky {
 }
 .sub-service
 {
-  position: sticky;
+ 
   align-items: center;
   align-items: center;
   text-align: center;
@@ -586,6 +586,7 @@ header.sticky {
     text-align: center;
   }
   .home-img img {
+    position:static;
     width: 100%;
     height: 100%;
     max-width: 440px; /* Ensure it doesn't exceed this width */
