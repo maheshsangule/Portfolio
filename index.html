@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mahesh Sangule</title>
+   
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="icon" href="img/logo3.png" class="tab_icon" type="image/png">
     <link
@@ -207,11 +208,15 @@
         </div>
 
         <div class="action">
-          <form action="mailto:developermahesh0@gmail.com" method="post" enctype="text/plain">
+          <form onsubmit="sendEmail(event)">
             <input
               type="email"
+              id="email"
+              disabled
+              
               name="email"
               value="developermahesh0@gmail.com"
+              required
             />
             <input type="submit" name="submit" value="Send me an Email">
           </form>
