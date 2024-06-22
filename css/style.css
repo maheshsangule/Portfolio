@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   font-family: 'Jost', sans-serif;
   list-style: none;
   text-decoration: none;
@@ -239,7 +239,7 @@ header.sticky {
 .about {
   height: auto;
   width: auto;
-  margin-bottom: -100px;
+  margin-bottom: -150px;
   padding-top: 200px;
   display: grid;
   grid-template-columns: 1fr;
@@ -302,7 +302,7 @@ header.sticky {
 }
 .portfolio {
   margin-bottom: -80px;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 .col {
   position: relative;
@@ -583,7 +583,7 @@ header.sticky {
 }
 @media (max-width: 800px) {
   .home {
-    margin-bottom: 250px;
+    margin-bottom: 150px;
     grid-template-columns: 1fr;
     min-height: 100vh; /* Ensure it covers full height */
     grid-gap: 1rem;
