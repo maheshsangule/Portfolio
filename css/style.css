@@ -589,7 +589,7 @@ header.sticky {
     width: 100%;
     height: 100%;
     max-width: 440px; /* Ensure it doesn't exceed this width */
-    position:static; /* Changed from fixed to relative */
+   /* Changed from fixed to relative */
   }
   /* .about {
   
