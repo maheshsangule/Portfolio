@@ -27,3 +27,17 @@ sr.reveal('.home-text',{delay:350, origin:'left'})
 sr.reveal('.home-img',{delay:350, origin:'right'})
 
 sr.reveal('.sub-service,.about,.portfolio,.service,.cta,.contact',{delay:100, origin:'bottom'})
+
+
+function sendEmail(event) {
+	event.preventDefault(); // Prevent the default form submission
+
+	// Get the form data
+	var email = document.getElementById("email").value;
+
+	// Construct the mailto URL with the form data in the body
+	var mailtoLink = 'mailto:developermahesh0@gmail.com?subject=Enter Subject Here&body=';
+
+	// Open the email client in a new window or tab
+	window.open(mailtoLink, '_blank');
+  }
